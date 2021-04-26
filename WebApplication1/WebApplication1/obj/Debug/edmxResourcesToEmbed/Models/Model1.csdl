@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="T_QL_Match_Prediction">
+    <Key>
+      <PropertyRef Name="MatchPredictionId" />
+    </Key>
+    <Property Name="MatchPredictionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MatchFixtureId" Type="Int32" />
+    <Property Name="NT_ID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Department" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PreviousScore" Type="Int32" />
+    <Property Name="Stage1WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Stage2WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Stage3WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MatchPredictionDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="T_QL_PredictionUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="QLEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="T_QL_Match_Prediction" EntityType="Self.T_QL_Match_Prediction" />
+    <EntitySet Name="T_QL_PredictionUsers" EntityType="Self.T_QL_PredictionUsers" />
+    <FunctionImport Name="SP_QL_AddMatchPrediction">
+      <Parameter Name="NT_ID" Mode="In" Type="String" />
+      <Parameter Name="Stage1WinnerTeam" Mode="In" Type="String" />
+      <Parameter Name="Stage2WinnerTeam" Mode="In" Type="String" />
+      <Parameter Name="Stage3WinnerTeam" Mode="In" Type="String" />
+      <Parameter Name="WinnerTeam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_QL_GetCurrentPredictionMatchDetails" ReturnType="Collection(QLModel.SP_QL_GetCurrentPredictionMatchDetails_Result)" />
+    <FunctionImport Name="SP_QL_PredictionUserLogin" ReturnType="Collection(Int32)">
+      <Parameter Name="NT_ID" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_QL_PredictionUserSignUp" ReturnType="Collection(Int32)">
+      <Parameter Name="NT_ID" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SP_QL_GetCurrentPredictionMatchDetails_Result">
+    <Property Type="Int32" Name="MatchFixtureId" Nullable="false" />
+    <Property Type="DateTime" Name="MatchDate" Nullable="false" />
+    <Property Type="Int32" Name="Team1Id" Nullable="false" />
+    <Property Type="Int32" Name="Team2Id" Nullable="false" />
+    <Property Type="String" Name="Team1Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Team2Name" Nullable="false" MaxLength="100" />
+  </ComplexType>
+</Schema>

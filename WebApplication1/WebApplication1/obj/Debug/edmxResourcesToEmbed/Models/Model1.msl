@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLModelStoreContainer" CdmEntityContainer="QLEntities">
+    <EntitySetMapping Name="T_QL_Match_Prediction">
+      <EntityTypeMapping TypeName="QLModel.T_QL_Match_Prediction">
+        <MappingFragment StoreEntitySet="T_QL_Match_Prediction">
+          <ScalarProperty Name="MatchPredictionId" ColumnName="MatchPredictionId" />
+          <ScalarProperty Name="MatchFixtureId" ColumnName="MatchFixtureId" />
+          <ScalarProperty Name="NT_ID" ColumnName="NT_ID" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="PreviousScore" ColumnName="PreviousScore" />
+          <ScalarProperty Name="Stage1WinnerTeamPrediction" ColumnName="Stage1WinnerTeamPrediction" />
+          <ScalarProperty Name="Stage2WinnerTeamPrediction" ColumnName="Stage2WinnerTeamPrediction" />
+          <ScalarProperty Name="Stage3WinnerTeamPrediction" ColumnName="Stage3WinnerTeamPrediction" />
+          <ScalarProperty Name="WinnerTeamPrediction" ColumnName="WinnerTeamPrediction" />
+          <ScalarProperty Name="MatchPredictionDate" ColumnName="MatchPredictionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_QL_PredictionUsers">
+      <EntityTypeMapping TypeName="QLModel.T_QL_PredictionUsers">
+        <MappingFragment StoreEntitySet="T_QL_PredictionUsers">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="NT_ID" ColumnName="NT_ID" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_QL_AddMatchPrediction" FunctionName="QLModel.Store.SP_QL_AddMatchPrediction" />
+    <FunctionImportMapping FunctionImportName="SP_QL_GetCurrentPredictionMatchDetails" FunctionName="QLModel.Store.SP_QL_GetCurrentPredictionMatchDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QLModel.SP_QL_GetCurrentPredictionMatchDetails_Result">
+          <ScalarProperty Name="MatchFixtureId" ColumnName="MatchFixtureId" />
+          <ScalarProperty Name="MatchDate" ColumnName="MatchDate" />
+          <ScalarProperty Name="Team1Id" ColumnName="Team1Id" />
+          <ScalarProperty Name="Team2Id" ColumnName="Team2Id" />
+          <ScalarProperty Name="Team1Name" ColumnName="Team1Name" />
+          <ScalarProperty Name="Team2Name" ColumnName="Team2Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_QL_PredictionUserLogin" FunctionName="QLModel.Store.SP_QL_PredictionUserLogin" />
+    <FunctionImportMapping FunctionImportName="SP_QL_PredictionUserSignUp" FunctionName="QLModel.Store.SP_QL_PredictionUserSignUp" />
+  </EntityContainerMapping>
+</Mapping>

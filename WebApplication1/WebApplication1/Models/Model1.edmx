@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="T_QL_Match_Prediction">
+          <Key>
+            <PropertyRef Name="MatchPredictionId" />
+          </Key>
+          <Property Name="MatchPredictionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MatchFixtureId" Type="int" />
+          <Property Name="NT_ID" Type="nvarchar" MaxLength="500" />
+          <Property Name="Department" Type="nvarchar" MaxLength="100" />
+          <Property Name="PreviousScore" Type="int" />
+          <Property Name="Stage1WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+          <Property Name="Stage2WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+          <Property Name="Stage3WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+          <Property Name="WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+          <Property Name="MatchPredictionDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="T_QL_PredictionUsers">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NT_ID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="20" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Function Name="SP_QL_AddMatchPrediction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Stage1WinnerTeam" Type="nvarchar" Mode="In" />
+          <Parameter Name="Stage2WinnerTeam" Type="nvarchar" Mode="In" />
+          <Parameter Name="Stage3WinnerTeam" Type="nvarchar" Mode="In" />
+          <Parameter Name="WinnerTeam" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_QL_GetCurrentPredictionMatchDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SP_QL_PredictionUserLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_QL_PredictionUserSignUp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Department" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="QLModelStoreContainer">
+          <EntitySet Name="T_QL_Match_Prediction" EntityType="Self.T_QL_Match_Prediction" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_QL_PredictionUsers" EntityType="Self.T_QL_PredictionUsers" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="T_QL_Match_Prediction">
+          <Key>
+            <PropertyRef Name="MatchPredictionId" />
+          </Key>
+          <Property Name="MatchPredictionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MatchFixtureId" Type="Int32" />
+          <Property Name="NT_ID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousScore" Type="Int32" />
+          <Property Name="Stage1WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Stage2WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Stage3WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="WinnerTeamPrediction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="MatchPredictionDate" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="T_QL_PredictionUsers">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="QLEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="T_QL_Match_Prediction" EntityType="Self.T_QL_Match_Prediction" />
+          <EntitySet Name="T_QL_PredictionUsers" EntityType="Self.T_QL_PredictionUsers" />
+          <FunctionImport Name="SP_QL_AddMatchPrediction">
+            <Parameter Name="NT_ID" Mode="In" Type="String" />
+            <Parameter Name="Stage1WinnerTeam" Mode="In" Type="String" />
+            <Parameter Name="Stage2WinnerTeam" Mode="In" Type="String" />
+            <Parameter Name="Stage3WinnerTeam" Mode="In" Type="String" />
+            <Parameter Name="WinnerTeam" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_QL_GetCurrentPredictionMatchDetails" ReturnType="Collection(QLModel.SP_QL_GetCurrentPredictionMatchDetails_Result)" />
+          <FunctionImport Name="SP_QL_PredictionUserLogin" ReturnType="Collection(Int32)">
+            <Parameter Name="NT_ID" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_QL_PredictionUserSignUp" ReturnType="Collection(Int32)">
+            <Parameter Name="NT_ID" Mode="In" Type="String" />
+            <Parameter Name="Department" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SP_QL_GetCurrentPredictionMatchDetails_Result">
+          <Property Type="Int32" Name="MatchFixtureId" Nullable="false" />
+          <Property Type="DateTime" Name="MatchDate" Nullable="false" />
+          <Property Type="Int32" Name="Team1Id" Nullable="false" />
+          <Property Type="Int32" Name="Team2Id" Nullable="false" />
+          <Property Type="String" Name="Team1Name" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Team2Name" Nullable="false" MaxLength="100" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLModelStoreContainer" CdmEntityContainer="QLEntities">
+          <EntitySetMapping Name="T_QL_Match_Prediction">
+            <EntityTypeMapping TypeName="QLModel.T_QL_Match_Prediction">
+              <MappingFragment StoreEntitySet="T_QL_Match_Prediction">
+                <ScalarProperty Name="MatchPredictionId" ColumnName="MatchPredictionId" />
+                <ScalarProperty Name="MatchFixtureId" ColumnName="MatchFixtureId" />
+                <ScalarProperty Name="NT_ID" ColumnName="NT_ID" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="PreviousScore" ColumnName="PreviousScore" />
+                <ScalarProperty Name="Stage1WinnerTeamPrediction" ColumnName="Stage1WinnerTeamPrediction" />
+                <ScalarProperty Name="Stage2WinnerTeamPrediction" ColumnName="Stage2WinnerTeamPrediction" />
+                <ScalarProperty Name="Stage3WinnerTeamPrediction" ColumnName="Stage3WinnerTeamPrediction" />
+                <ScalarProperty Name="WinnerTeamPrediction" ColumnName="WinnerTeamPrediction" />
+                <ScalarProperty Name="MatchPredictionDate" ColumnName="MatchPredictionDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_QL_PredictionUsers">
+            <EntityTypeMapping TypeName="QLModel.T_QL_PredictionUsers">
+              <MappingFragment StoreEntitySet="T_QL_PredictionUsers">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="NT_ID" ColumnName="NT_ID" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_QL_AddMatchPrediction" FunctionName="QLModel.Store.SP_QL_AddMatchPrediction" />
+          <FunctionImportMapping FunctionImportName="SP_QL_GetCurrentPredictionMatchDetails" FunctionName="QLModel.Store.SP_QL_GetCurrentPredictionMatchDetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="QLModel.SP_QL_GetCurrentPredictionMatchDetails_Result">
+                <ScalarProperty Name="MatchFixtureId" ColumnName="MatchFixtureId" />
+                <ScalarProperty Name="MatchDate" ColumnName="MatchDate" />
+                <ScalarProperty Name="Team1Id" ColumnName="Team1Id" />
+                <ScalarProperty Name="Team2Id" ColumnName="Team2Id" />
+                <ScalarProperty Name="Team1Name" ColumnName="Team1Name" />
+                <ScalarProperty Name="Team2Name" ColumnName="Team2Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_QL_PredictionUserLogin" FunctionName="QLModel.Store.SP_QL_PredictionUserLogin" />
+          <FunctionImportMapping FunctionImportName="SP_QL_PredictionUserSignUp" FunctionName="QLModel.Store.SP_QL_PredictionUserSignUp" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

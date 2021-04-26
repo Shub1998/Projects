@@ -1,0 +1,174 @@
+C:\ASP\QPL\QPL\bin\roslyn\csc.exe
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ASP\QPL\QPL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ASP\QPL\QPL\bin\roslyn\System.Collections.Immutable.dll
+C:\ASP\QPL\QPL\bin\roslyn\System.Reflection.Metadata.dll
+C:\ASP\QPL\QPL\bin\roslyn\vbc.exe
+C:\ASP\QPL\QPL\bin\roslyn\VBCSCompiler.exe
+C:\ASP\QPL\QPL\bin\roslyn\VBCSCompiler.exe.config
+C:\ASP\QPL\QPL\bin\QPL.dll.config
+C:\ASP\QPL\QPL\bin\QPL.dll
+C:\ASP\QPL\QPL\bin\QPL.pdb
+C:\ASP\QPL\QPL\bin\Antlr3.Runtime.dll
+C:\ASP\QPL\QPL\bin\EntityFramework.dll
+C:\ASP\QPL\QPL\bin\EntityFramework.SqlServer.dll
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\ASP\QPL\QPL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Google.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\ASP\QPL\QPL\bin\Microsoft.Web.Infrastructure.dll
+C:\ASP\QPL\QPL\bin\Newtonsoft.Json.dll
+C:\ASP\QPL\QPL\bin\Owin.dll
+C:\ASP\QPL\QPL\bin\System.Net.Http.Formatting.dll
+C:\ASP\QPL\QPL\bin\System.Web.Helpers.dll
+C:\ASP\QPL\QPL\bin\System.Web.Http.dll
+C:\ASP\QPL\QPL\bin\System.Web.Http.Owin.dll
+C:\ASP\QPL\QPL\bin\System.Web.Http.WebHost.dll
+C:\ASP\QPL\QPL\bin\System.Web.Mvc.dll
+C:\ASP\QPL\QPL\bin\System.Web.Optimization.dll
+C:\ASP\QPL\QPL\bin\System.Web.Razor.dll
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.Deployment.dll
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.dll
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.Razor.dll
+C:\ASP\QPL\QPL\bin\WebGrease.dll
+C:\ASP\QPL\QPL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ASP\QPL\QPL\bin\Newtonsoft.Json.xml
+C:\ASP\QPL\QPL\bin\System.Net.Http.Formatting.xml
+C:\ASP\QPL\QPL\bin\System.Web.Helpers.xml
+C:\ASP\QPL\QPL\bin\System.Web.Http.xml
+C:\ASP\QPL\QPL\bin\System.Web.Http.WebHost.xml
+C:\ASP\QPL\QPL\bin\System.Web.Mvc.xml
+C:\ASP\QPL\QPL\bin\System.Web.Optimization.xml
+C:\ASP\QPL\QPL\bin\System.Web.Razor.xml
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.xml
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.Deployment.xml
+C:\ASP\QPL\QPL\bin\System.Web.WebPages.Razor.xml
+C:\ASP\QPL\QPL\bin\Antlr3.Runtime.pdb
+C:\ASP\QPL\QPL\bin\EntityFramework.xml
+C:\ASP\QPL\QPL\bin\EntityFramework.SqlServer.xml
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\ASP\QPL\QPL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Google.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\ASP\QPL\QPL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\ASP\QPL\QPL\bin\System.Web.Http.Owin.xml
+C:\ASP\QPL\QPL\obj\Debug\QPL.csprojResolveAssemblyReference.cache
+C:\ASP\QPL\QPL\obj\Debug\QPL.dll
+C:\ASP\QPL\QPL\obj\Debug\QPL.pdb
+C:\ASP\QPL\QPL\bin\System.Web.Cors.dll
+C:\ASP\QPL\QPL\bin\System.Web.Http.Cors.dll
+C:\ASP\QPL\QPL\bin\System.Web.Http.Cors.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\csc.exe
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\vbc.exe
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\VBCSCompiler.exe
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\QPL.dll.config
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\QPL.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\QPL.pdb
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Net.Http.Formatting.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Http.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Http.Cors.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Newtonsoft.Json.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Helpers.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Http.WebHost.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Mvc.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Optimization.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Razor.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.WebPages.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.WebPages.Razor.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Antlr3.Runtime.pdb
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\EntityFramework.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\EntityFramework.SqlServer.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\bin\System.Web.Http.Owin.xml
+C:\Users\orh1cob\Desktop\QPL\QPL\obj\Debug\QPL.csprojResolveAssemblyReference.cache
+C:\Users\orh1cob\Desktop\QPL\QPL\obj\Debug\QPL.dll
+C:\Users\orh1cob\Desktop\QPL\QPL\obj\Debug\QPL.pdb
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\csc.exe
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\vbc.exe
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\VBCSCompiler.exe
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\QPL.dll.config
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\QPL.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\QPL.pdb
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Net.Http.Formatting.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Http.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Http.Cors.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Newtonsoft.Json.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Helpers.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Http.WebHost.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Mvc.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Optimization.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Razor.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.WebPages.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.WebPages.Razor.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Antlr3.Runtime.pdb
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\EntityFramework.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\EntityFramework.SqlServer.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\bin\System.Web.Http.Owin.xml
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\obj\Debug\QPL.csprojResolveAssemblyReference.cache
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\obj\Debug\QPL.dll
+C:\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QPL\QPL\obj\Debug\QPL.pdb

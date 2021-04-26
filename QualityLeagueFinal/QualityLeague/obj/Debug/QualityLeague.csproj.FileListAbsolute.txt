@@ -1,0 +1,60 @@
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\csc.exe
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\vbc.exe
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.dll.config
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.pdb
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.csprojResolveAssemblyReference.cache
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.dll
+c:\users\hbh1cob\documents\visual studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.pdb
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\csc.exe
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CSharp.Core.targets
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\System.Collections.Immutable.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\System.Reflection.Metadata.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\vbc.exe
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe.config
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.dll.config
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\QualityLeague.pdb
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.csprojResolveAssemblyReference.cache
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.dll
+\\COB1022830\Users\HBH1COB\Documents\Visual Studio 2015\Projects\QualityLeague\QualityLeague\obj\Debug\QualityLeague.pdb
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\csc.exe
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\vbc.exe
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\QualityLeague.dll.config
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\QualityLeague.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\QualityLeague.pdb
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\obj\Debug\QualityLeague.csprojResolveAssemblyReference.cache
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\obj\Debug\QualityLeague.dll
+C:\Users\orh1cob\Desktop\QualityLeague\QualityLeague\obj\Debug\QualityLeague.pdb

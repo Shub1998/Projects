@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_QL_Match_Prediction">
+    <Key>
+      <PropertyRef Name="MatchPredictionId" />
+    </Key>
+    <Property Name="MatchPredictionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchFixtureId" Type="int" />
+    <Property Name="NT_ID" Type="nvarchar" MaxLength="500" />
+    <Property Name="Department" Type="nvarchar" MaxLength="100" />
+    <Property Name="PreviousScore" Type="int" />
+    <Property Name="Stage1WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+    <Property Name="Stage2WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+    <Property Name="Stage3WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+    <Property Name="WinnerTeamPrediction" Type="nvarchar" MaxLength="500" />
+    <Property Name="MatchPredictionDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_QL_PredictionUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NT_ID" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="Department" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Function Name="SP_QL_AddMatchPrediction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+    <Parameter Name="Stage1WinnerTeam" Type="nvarchar" Mode="In" />
+    <Parameter Name="Stage2WinnerTeam" Type="nvarchar" Mode="In" />
+    <Parameter Name="Stage3WinnerTeam" Type="nvarchar" Mode="In" />
+    <Parameter Name="WinnerTeam" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SP_QL_GetCurrentPredictionMatchDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_QL_PredictionUserLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SP_QL_PredictionUserSignUp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NT_ID" Type="nvarchar" Mode="In" />
+    <Parameter Name="Department" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="QLModelStoreContainer">
+    <EntitySet Name="T_QL_Match_Prediction" EntityType="Self.T_QL_Match_Prediction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_QL_PredictionUsers" EntityType="Self.T_QL_PredictionUsers" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
